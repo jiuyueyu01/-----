@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022/Arch Linux) (preloaded format=xelatex 2022.10.20)  21 OCT 2022 20:44
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022/Arch Linux) (preloaded format=xelatex 2022.10.20)  22 OCT 2022 11:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1706,9 +1706,9 @@ Package: transparent 2019/11/29 v1.4 Transparency via pdfTeX's color stack (HO)
 
 Package transparent Warning: Loading aborted, because pdfTeX is not running in PDF mode.
 
-)
+) (./newcommand.tex)
 
-Package csquotes Warning: Load 'inputenc' before 'csquotes' on input line 19.
+Package csquotes Warning: Load 'inputenc' before 'csquotes' on input line 20.
 
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... none found.
@@ -1773,7 +1773,7 @@ Package fontspec Info: Font family 'TeXGyreTermesX(0)' created for font
 (fontspec)             <->s*[1]"[TeXGyreTermesX-BoldSlanted.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;+smcp;+pcap;mapping=tex-text;"
 
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 19.
+(Font)              scaled to size 10.0pt on input line 20.
 Requested font "[TeXGyreTermesX-Regular.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 10.0pt
  -> /usr/share/texmf-dist/fonts/opentype/public/newtx/TeXGyreTermesX-Regular.otf
 
@@ -1783,47 +1783,47 @@ Package biblatex Warning: Load 'inputenc' before biblatex.
 (tmp/main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 19.
-LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line 19.
+LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 20.
+LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line 20.
  (/usr/share/texmf-dist/tex/latex/newtx/omlntxmi.fd
 File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
 )
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 19.
-LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 19.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 20.
+LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 20.
  (/usr/share/texmf-dist/tex/latex/newtx/untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 19.
-LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line 19.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 20.
+LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line 20.
  (/usr/share/texmf-dist/tex/latex/newtx/lmsntxsy.fd
 File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 19.
-LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input line 19.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 20.
+LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input line 20.
  (/usr/share/texmf-dist/tex/latex/newtx/lmxntxexx.fd
 File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
-LaTeX Font Info:    ... okay on input line 19.
-Package hyperref Info: Link coloring ON on input line 19.
+LaTeX Font Info:    ... okay on input line 20.
+Package hyperref Info: Link coloring ON on input line 20.
  (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (/usr/share/texmf-dist/tex/latex/refcount/refcount.sty
@@ -1833,9 +1833,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count567
 )
-LaTeX Info: Redefining \ref on input line 19.
-LaTeX Info: Redefining \pageref on input line 19.
-LaTeX Info: Redefining \nameref on input line 19.
+LaTeX Info: Redefining \ref on input line 20.
+LaTeX Info: Redefining \pageref on input line 20.
+LaTeX Info: Redefining \nameref on input line 20.
  (tmp/main.out) (tmp/main.out)
 \@outlinefile=\write7
 \openout7 = `main.out'.
@@ -1905,10 +1905,10 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' not found.
 
 No file main.bbl.
-Package biblatex Info: Reference section=0 on input line 19.
-Package biblatex Info: Reference segment=0 on input line 19.
+Package biblatex Info: Reference section=0 on input line 20.
+Package biblatex Info: Reference segment=0 on input line 20.
 \c@lstlisting=\count568
-Package hyperref Info: Option `pageanchor' set `false' on input line 20.
+Package hyperref Info: Option `pageanchor' set `false' on input line 21.
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: xetex
 * paper: a4paper
@@ -1944,16 +1944,16 @@ Package hyperref Info: Option `pageanchor' set `false' on input line 20.
 File: figure/cover.jpg Graphic file (type bmp)
 <figure/cover.jpg>
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/b/n' will be
-(Font)              scaled to size 10.0pt on input line 20.
+(Font)              scaled to size 10.0pt on input line 21.
 Requested font "[TeXGyreTermesX-Bold.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 10.0pt
  -> /usr/share/texmf-dist/fonts/opentype/public/newtx/TeXGyreTermesX-Bold.otf
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/b/n' will be
-(Font)              scaled to size 24.88pt on input line 20.
+(Font)              scaled to size 24.88pt on input line 21.
 Requested font "[TeXGyreTermesX-Bold.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 24.88pt
  -> /usr/share/texmf-dist/fonts/opentype/public/newtx/TeXGyreTermesX-Bold.otf
 Requested font "[FandolSong-Bold.otf]/OT:language=dflt;" at 24.88pt
  -> /usr/share/texmf-dist/fonts/opentype/public/fandol/FandolSong-Bold.otf
-LaTeX Font Info:    Trying to load font information for OT1+minntx on input line 20.
+LaTeX Font Info:    Trying to load font information for OT1+minntx on input line 21.
 (/usr/share/texmf-dist/tex/latex/newtx/ot1minntx.fd
 File: ot1minntx.fd 2022/01/20 v1.0 font definition file for OT1/minntx
 )
@@ -1981,7 +1981,7 @@ Requested font "ntxexx" at 7.3pt
  -> /usr/share/texmf-dist/fonts/tfm/public/newtx/ntxexx.tfm
 Requested font "ntxexx" at 5.5pt
  -> /usr/share/texmf-dist/fonts/tfm/public/newtx/ntxexx.tfm
-LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 20.
+LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 21.
  (/usr/share/texmf-dist/tex/latex/newtx/untxmia.fd
 File: untxmia.fd 2018/04/14 Fontinst v1.933 font definitions for U/ntxmia.
 )
@@ -1991,7 +1991,7 @@ Requested font "ntxmia" at 7.3pt
  -> /usr/share/texmf-dist/fonts/tfm/public/newtx/ntxmia.tfm
 Requested font "ntxmia" at 5.5pt
  -> /usr/share/texmf-dist/fonts/tfm/public/newtx/ntxmia.tfm
-LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 20.
+LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 21.
  (/usr/share/texmf-dist/tex/latex/newtx/untxsym.fd
 File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
 )
@@ -2001,7 +2001,7 @@ Requested font "ntxsym" at 7.3pt
  -> /usr/share/texmf-dist/fonts/tfm/public/newtx/ntxsym.tfm
 Requested font "ntxsym" at 5.5pt
  -> /usr/share/texmf-dist/fonts/tfm/public/newtx/ntxsym.tfm
-LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 20.
+LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 21.
  (/usr/share/texmf-dist/tex/latex/newtx/untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
@@ -2017,7 +2017,7 @@ Requested font "ntxexa" at 7.3pt
  -> /usr/share/texmf-dist/fonts/tfm/public/newtx/ntxexa.tfm
 Requested font "ntxexa" at 5.5pt
  -> /usr/share/texmf-dist/fonts/tfm/public/newtx/ntxexa.tfm
-LaTeX Font Info:    Trying to load font information for U+esint on input line 20.
+LaTeX Font Info:    Trying to load font information for U+esint on input line 21.
  (/usr/share/texmf-dist/tex/latex/esint/uesint.fd
 File: uesint.fd 
 )
@@ -2031,7 +2031,7 @@ Requested font "cmex7" at 7.3pt
  -> /usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 Requested font "cmex7" at 5.5pt
  -> /usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 20.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 21.
  (/usr/share/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
@@ -2041,7 +2041,7 @@ Requested font "rsfs7" at 7.3pt
  -> /usr/share/texmf-dist/fonts/tfm/public/rsfs/rsfs7.tfm
 Requested font "rsfs5" at 5.5pt
  -> /usr/share/texmf-dist/fonts/tfm/public/rsfs/rsfs5.tfm
-LaTeX Font Info:    Trying to load font information for U+msa on input line 20.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 21.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
@@ -2051,7 +2051,7 @@ Requested font "msam7" at 7.3pt
  -> /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
 Requested font "msam5" at 5.5pt
  -> /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
-LaTeX Font Info:    Trying to load font information for U+msb on input line 20.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 21.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
@@ -2062,7 +2062,7 @@ Requested font "msbm7" at 7.3pt
 Requested font "msbm5" at 5.5pt
  -> /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/b/n' will be
-(Font)              scaled to size 14.4pt on input line 20.
+(Font)              scaled to size 14.4pt on input line 21.
 Requested font "[TeXGyreTermesX-Bold.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 14.4pt
  -> /usr/share/texmf-dist/fonts/opentype/public/newtx/TeXGyreTermesX-Bold.otf
 Requested font "[FandolKai-Regular.otf]/OT" at 9.99997pt
@@ -2089,7 +2089,7 @@ Package fontspec Info: Font family 'FandolKai-Regular(0)' created for font
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Font shape `TU/FandolKai-Regular(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 20.
+(Font)              scaled to size 10.0pt on input line 21.
 Requested font "[FandolKai-Regular.otf]/OT:language=dflt;-ss05;mapping=tex-text;" at 10.0pt
  -> /usr/share/texmf-dist/fonts/opentype/public/fandol/FandolKai-Regular.otf
 File: figure/science-and-mind.jpg Graphic file (type bmp)
@@ -2100,7 +2100,7 @@ File: figure/science-and-mind.jpg Graphic file (type bmp)
 
 ]
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/b/n' will be
-(Font)              scaled to size 17.28pt on input line 25.
+(Font)              scaled to size 17.28pt on input line 26.
 Requested font "[TeXGyreTermesX-Bold.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 17.28pt
  -> /usr/share/texmf-dist/fonts/opentype/public/newtx/TeXGyreTermesX-Bold.otf
 Requested font "[FandolSong-Bold.otf]/OT:language=dflt;" at 17.28pt
@@ -2204,14 +2204,14 @@ See the caption package documentation for explanation.
 ] (./src/chap3.tex
 第 3{} 章 3.
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/b/n' will be
-(Font)              scaled to size 12.0pt on input line 10.
+(Font)              scaled to size 12.0pt on input line 21.
 Requested font "[TeXGyreTermesX-Bold.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 12.0pt
  -> /usr/share/texmf-dist/fonts/opentype/public/newtx/TeXGyreTermesX-Bold.otf
 Requested font "[FandolSong-Bold.otf]/OT:language=dflt;" at 12.0pt
  -> /usr/share/texmf-dist/fonts/opentype/public/fandol/FandolSong-Bold.otf
-) [9
+[9
 
-] (tmp/main.aux)
+] [10]) [11] (tmp/main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 77EFFEFA5A7E8D1C5F1EA10A5D9A16E6;1271.
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -2219,12 +2219,12 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 50229 strings out of 476156
- 1056171 string characters out of 5814962
- 1980069 words of memory out of 5000000
- 70077 multiletter control sequences out of 15000+600000
+ 50236 strings out of 476156
+ 1056303 string characters out of 5814962
+ 1980096 words of memory out of 5000000
+ 70082 multiletter control sequences out of 15000+600000
  486058 words of font info for 110 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  106i,17n,136p,733b,1460s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on tmp/main.pdf (11 pages).
+Output written on tmp/main.pdf (13 pages).

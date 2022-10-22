@@ -1,15 +1,120 @@
 \chapter{原子磁矩}
+物质磁性：原（离）子磁性基础。
+具有复合性：
+\begin{enumerate}
+    \item 原子局域环境（晶胞形状） 
+    \item 集体行为（晶格振动） 
+\end{enumerate}
 
 
-
+原子核与核外电子之间：
+\begin{enumerate}
+    \item 量子处理
+    \item 壳层结构
+    \item 电子-电子，电子-核相互作用
+\end{enumerate}
 %——————————————————————————————————%
 \section{电子磁矩和磁性}
 
 
 
 \subsection{电子磁矩}
+电子角动量：自旋 + 轨道
+\subsubsection{轨道磁矩}
+\begin{enumerate}
+\item 经典：运动轨迹
 
+若电子半径为$r$，为圆形，角速率$\omega$:
 
+磁矩：
+\begin{align*}
+    \vec{m} &= \mu_0 I \vec{S}\\
+    m &= \mu_0 (\frac{-e\omega}{2\pi})\pi r^2\\
+    &= \frac{1}{2} \mu_0 e \omega r^2\\
+\end{align*}
+
+轨道角动量：
+\begin{align*}
+    \vec{l} &= m_e \vec{r} \times \vec{v}\\
+    l &= m_e \omega r^2\\
+    \vec{m} &= -\frac{\mu_0 e}{2m_e}\vec{l}
+\end{align*}
+\item 量子：具有特定轨道角动量的状态
+
+对于：
+\[ \hat{m} = -\frac{\mu_0 e}{2 m_e}\hat{m} \]
+仅：
+\[ \hat{m_e} = -\frac{\mu_0 e}{2 m_e}\hat{m_z} \]
+\[ m_{\text{eff}} = \sqrt{l(l+1)}\hbar \]
+实验可测：
+\begin{align*}
+    m_z &= -\frac{\mu_0 e}{2m_e}m_l \hbar\\
+    &= -m_l\mu_B
+\end{align*}
+玻尔磁子：
+\[\mu_B \equiv \frac{\mu_0 e \hbar}{2m_e}\]
+\end{enumerate}
+\subsubsection{自旋磁矩}
+自旋角动量：
+\begin{align*}
+    \hat{s}^2 &\to s(s+1)\hbar^2, &s=\frac{1}{2}\\
+    \hat{s}_z &\to m_s \hbar,   &m_s=\pm \frac{1}{2}
+\end{align*}
+
+有：
+\begin{align*}
+    m_z^s &= -2m_s\mu_B\\
+    m_{\text{eff}}^s &= \sqrt{s(s+1)}\hbar^2
+\end{align*}
+
+\subsubsection{总磁矩}
+\begin{align*}
+    m_z &= -m_j g \mu_B\\
+    \vec{j} &= \vec{l} + \vec{s}\\
+    \vec{j}_z &= m_j \hbar
+\end{align*}
+
+当$\vec{j} = \vec{l}$，无自旋，$g=1$,$m_z=-m_l\mu_B$;
+
+当$\vec{j} = \vec{s}$，无轨道，$g=2$,$m_z=-2m_s\mu_B$。
+
+\begin{enumerate}
+    \item 朗德因子$g$：
+    \begin{align*}
+        g &= \frac{\text{测量到的}m_z/\mu_B}{\text{角动量投影}/\hbar}\\
+        g &= \frac{\text{总磁矩}\vec{j}\text{方向投影}/\mu_B}
+        {\text{总角动量}/\hbar}\\
+        &= \frac{\vec{m}_\text{总}\vec{j}/\mu_B}
+        {|\vec{j}|^2/\hbar}
+    \end{align*}
+
+    引入：
+    \begin{align*}
+        \hat{m}_\text{总}&=-\frac{\hat{l}}{\hbar}\mu_B
+        -2\frac{\hat{s}}{\hbar}\mu_B\\
+        &= -\frac{\mu_B}{\hbar}(\hat{l}+2\hat{s})
+    \end{align*}
+    \begin{align*}
+        \vec{m}_\text{总}\vec{j}
+        &= -\frac{\mu_B}{\hbar}
+            [(\hat{l}+2\hat{s})(\hat{l}+\hat{s})]\\
+        &= -\frac{\mu_B}{\hbar}
+            (\hat{l}^2+3\hat{l}\cdot\hat{s}+2\hat{s}^2)\\
+        &= -\frac{\mu_B}{\hbar}
+            (\frac{2}{3}\hat{j}^2-\h\hat{l}^2+\h\hat{s}^2)\\
+    \end{align*}
+
+    代入本征值得：
+    \[ g = \frac{\frac{2}{3}j(j+1)-\h l(l+1)+\h s(s+1)}{j(j+1)} \]
+
+    \item 旋磁比：
+    
+    电子磁矩与角动量的比值：
+    \[\gamma = \frac{m}{j} = g\frac{\mu_B}{\hbar}
+    =g \frac{\mu_0e}{2m_e} \]
+    \[ \vec{m} = -\gamma j \]
+    $g$即为无量纲的$\gamma$。
+\end{enumerate}
 
 \subsection{电子磁矩的动力学方程}
 
