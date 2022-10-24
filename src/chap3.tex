@@ -117,7 +117,50 @@
 \end{enumerate}
 
 \subsection{电子磁矩的动力学方程}
+\begin{enumerate}
+    \item 进动方程：
+    
+    $\vec{m}$电子磁矩放入$\vec{H}$外场（均匀）
+    \begin{align*}
+        \vec{\tau} &= \vec{m} \times \vec{H}\\
+        \vec{\tau} &= d\vec{j}/dt\\
+        \frac{d\vec{j}}{dt} &= \vec{m} \times \vec{H}
+        \to \frac{d\vec{m}}{dt} = -\gamma \vec{m} \times \vec{H}
+    \end{align*}
+    
+    电子磁矩绕$H$逆时针进动。
 
+    \item 进动频率：
+    
+    \[\frac{d}{dt}\vec{m} = \sum_{i}\frac{d}{dt}m_i\hat{e}_i\]
+    \[\vec{m} \times \vec{H} = 
+        \begin{pmatrix}
+            \hat{e}_x&\hat{e}_y&\hat{e}_z\\
+            m_x&m_y&m_z\\
+            0&0&H
+        \end{pmatrix}
+        =m_yH\hat{e}_x-m_xH\hat{e}_y\]
+    \begin{align*}
+        \frac{d}{dt}m_x &= -\gamma h m_y \hat{e}_x\\
+        \frac{d}{dt}m_y &= \gamma h m_x \hat{e}_y\\
+        \frac{d}{dt}m_z &= 0
+    \end{align*}
+
+    取 $m_x=|\vec{m}|\sin\theta\sin\varphi(t)$，
+       $m_y=|\vec{m}|\sin\theta\sin\varphi(t)$。
+
+    有：
+    \[ \frac{d}{dt}m_x = -\frac{d\varphi}{dt} 
+       |\vec{m}|\sin\theta\sin\varphi(t)
+       = \gamma H |\vec{m}|\sin\theta\sin\varphi(t)\]
+    \[ \omega = \frac{d\varphi(t)}{dt} = \gamma H \]
+
+    拉莫尔进动：
+    \begin{enumerate}
+        \item 仅$s$，$g=2$，$\mu_0H=1T$时$f=28GHz$
+        \item 仅$l$，$g=1$，$\mu_0H=1T$时$f=14GHz$
+    \end{enumerate}
+\end{enumerate}
 
 
 \subsection{电子的磁性}
